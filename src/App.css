@@ -1,0 +1,175 @@
+* { 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+} 
+
+body { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: auto;
+} 
+
+.h1-header { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin-bottom: 20px;
+} 
+
+.div-title { 
+    font-size: 24px; 
+    margin-top: 20px;
+} 
+
+.balance-amount { 
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 20px;
+} 
+
+.income-box { 
+    display: flex; 
+    flex-direction: row;  
+    justify-content: space-between; 
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px; 
+}
+
+.income-amount { 
+    color: green;
+}
+
+.expense-amount {
+    color: crimson;
+}
+
+form { 
+    margin-top: 30px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.transac-title { 
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: 400;
+    padding-bottom: 10px;
+    font-size: 20px;
+} 
+
+.entry-type-title { 
+    font-size: 16px; 
+    margin-bottom: 15px;
+}
+
+select { 
+    padding: 10px;
+    border: 1px solid black; 
+    width: 100%;
+    color: black;  
+    font-size: 15px; 
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+} 
+
+select:focus {  
+    border: 1px solid black; 
+    background-color: white; 
+    color: black;
+    outline: none;
+} 
+
+hr { 
+    margin-top: 5px; 
+    margin-bottom: 15px; 
+}
+
+label { 
+    font-size: 16px;  
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+   
+input { 
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #1A1A1D; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    font-family: cursive;
+} 
+
+.add-transc-btn { 
+    width: 100%; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    border-radius: 10px; 
+    border: none;
+    background-color: #16C47F;
+    color: white; 
+    font-size: 15px; 
+    font-family: monospace; 
+    cursor: pointer; 
+} 
+
+.transac-history-title { 
+    margin-top: 20px; 
+    margin-bottom: 15px;
+}
+   
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+    border-radius: 8px;
+    overflow: hidden;
+}
+  
+th, td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+}
+  
+th {
+    background-color: #6c5ce7;
+    color: white;
+    font-weight: bold;
+}
+  
+td {
+    background-color: #f9f9f9; 
+}
+  
+tr:hover {
+    background-color: #f1f1f1; 
+}
+  
+button {
+    background-color: #e74c3c; 
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #c0392b; 
+}
+  
+button:focus {
+    outline: none; 
+}
+
+.h1-header { 
+    font-size: 35px;
+    color: #131010;
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+}
